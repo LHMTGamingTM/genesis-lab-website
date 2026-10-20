@@ -77,10 +77,10 @@ const spacecraftFleet: Ship[] = [
       "Vỏ thép không gỉ 304L kết hợp 18.000 viên gạch gốm chống nhiệt 1.400°C.",
     ],
     specs: [
-      { label: "Liftoff Thrust", value: 98, unit: "74,000 kN (16.7M lbs)" },
-      { label: "Payload to LEO", value: 100, unit: "150 – 200 Metric Tons" },
+      { label: "Liftoff Thrust", value: 98, unit: "74 - 81 MN (16.7M lbs)" },
+      { label: "Payload to LEO", value: 100, unit: "100 – 150+ Metric Tons" },
       { label: "Propellant", value: 92, unit: "Sub-cooled CH4 / LOX" },
-      { label: "Reusability", value: 96, unit: "100% Both Stages" },
+      { label: "Reusability", value: 100, unit: "100% Both Stages" },
     ],
   },
   {
