@@ -146,7 +146,7 @@ export function SiteFooter({
           </div>
           <div className="flex flex-col gap-4">
             <h5 className="font-bold tracking-widest uppercase text-sm mb-2 text-white/50">Social</h5>
-            <a href="#" className="text-gray-300 hover:text-white text-sm transition-colors">Github</a>
+            <a href="https://github.com/LHMTGamingTM/genesis-lab-website" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white text-sm transition-colors">Github</a>
             <a href="https://thptnguyenhuuhuan.hcm.edu.vn/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white text-sm transition-colors">Nguyen Huu Huan High School</a>
           </div>
         </div>
