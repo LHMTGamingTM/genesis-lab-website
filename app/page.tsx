@@ -512,12 +512,9 @@ export default function Home() {
         <div className="relative z-20 max-w-4xl pointer-events-none" ref={heroTextRef}>
           <p className="text-cyan-400 font-mono text-xs tracking-widest mb-4 uppercase">// AEROSPACE ENGINEERING BRIEFING</p>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tighter leading-[1.05] mb-6">Forged for the stars, <br />built to explore.</h1>
-          <p className="text-base md:text-lg text-gray-300 max-w-lg font-light tracking-wide">
-            Tổng hợp kiến trúc tàu vũ trụ thế hệ mới: từ tên lửa siêu trọng tải tái sử dụng hoàn toàn đến trạm quan sát không gian sâu.
-          </p>
           <div className="mt-10 pointer-events-auto inline-block">
             <button className="group flex items-center gap-4 text-xs md:text-sm uppercase tracking-widest border-b border-white pb-2 hover:border-cyan-400 hover:text-cyan-400 transition-colors" onClick={() => document.getElementById("showcase")?.scrollIntoView({ behavior: "smooth" })}>
-              <span>Inspect the Fleet</span><span className="group-hover:translate-x-2 transition-transform duration-300">↓</span>
+              <span>Discover more</span><span className="group-hover:translate-x-2 transition-transform duration-300">↓</span>
             </button>
           </div>
         </div>
@@ -528,10 +525,10 @@ export default function Home() {
         <div className="absolute inset-0 z-0 opacity-10 pointer-events-none" style={{ backgroundImage: "radial-gradient(#ffffff 1px, transparent 1px)", backgroundSize: "30px 30px" }}></div>
 
         <div className="z-10 text-center mb-10">
-          <p className="text-cyan-500 font-mono text-xs tracking-widest mb-3 uppercase">{`// 01. Interactive Hangar`}</p>
+          <p className="text-cyan-500 font-mono text-xs tracking-widest mb-3 uppercase">{`// 01. Carousel Hangar`}</p>
           <h2 className="text-4xl md:text-5xl font-bold tracking-tighter mb-3">Iconic Spacecraft Lineup.</h2>
           <p className="text-gray-400 font-light max-w-xl mx-auto text-sm md:text-base px-4">
-            Ba cột mốc kỹ thuật tiêu biểu đại diện cho kỷ nguyên tàu con thoi quỹ đạo thấp, thám hiểm Mặt Trăng và vận tải liên hành tinh.
+            Ba loại tên lửa đại diện cho 3 cột mốc của ngành hàng không vũ trụ.
           </p>
         </div>
 
@@ -781,6 +778,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-4">
               <h5 className="font-bold tracking-widest uppercase text-sm mb-2 text-white/50">Institution</h5>
+              <a href="https://github.com/LHMTGamingTM/genesis-lab-website" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white text-sm transition-colors">Github</a>
               <a href="https://thptnguyenhuuhuan.hcm.edu.vn/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white text-sm transition-colors">Nguyen Huu Huan High School</a>
               <Link href="/policy" className="text-gray-300 hover:text-white text-sm transition-colors">Privacy & Policy</Link>
             </div>
